@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/logo_sena.jpg" />
+    <link rel="stylesheet" href="../css/registrarFichas.css">
+    <title>SIFA-Registar ficha</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  naveg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> 
+            
+          </span>
+        </button>
+        <img class="navegacion1" src="../img/logo_sena.jpg" width="50px" height="50px">
+        <a class="navbar-brand navegacion2" href="../vistas/index.html">SIFA</a>
+      
+        <div class="collapse navbar-collapse navegacion" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li>
+              <a class="nav-link" href="gestionUsuarios.html">Usuarios</a>
+            </li>
+            <li>
+              <a class="nav-link" href="gestionInstructor.html">Instructores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gestionAprendiz.html">Aprendices</a>
+            </li>
+            <li>
+              <a class="nav-link" href="../vistas/gestionFichas.html">Fichas</a>
+          </li>
+            <li>
+                <a href="index.html"><img class="navegacion1" src="../img/exit.png" width="20px" height="20px"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>   
+
+      <CENTER><h1 style="margin-top: 2%; font-size: 60px; color: green;">REGISTRAR FICHAS!</h1></CENTER>
+
+    <!--body-->
+    <div class="row" >
+        <div class="col-sm" >
+            <div class="col-sm form">
+                <div class="card tarjetita">
+                    <center><div class="card-header titulo" style="background-color: green; border-top-right-radius: 15px ; border-top-left-radius: 15px ;">Registar usuario</div></center>
+                    <div class="card-body">
+            
+                        <form class="container-fluid ">
+            
+                        
+                            <input type="text" class="form-control input" placeholder="Nombre Usuario" ></input>
+                            
+                            <p></p>
+                
+                            <select class="form-select form-select-lg mb-3 " aria-label="Large select example">
+                              <option selected>Tipo de documento</option>
+                              <option value="1">Tarjeta de identidad</option>
+                              <option value="2">Cedula de ciudadania</option>
+                              <option value="3">Cedula de extranjeria</option>
+                              <option value="3">Pasaporte</option>
+                            </select>
+            
+                            <p></p>
+                
+                            <input type="number" class="form-control input " placeholder="Numeró de documento" ></input>
+                            
+                            <p></p>
+                
+                            <input type="number" class="form-control input" placeholder="Celular Usuario" ></input>
+                            
+                            <p></p>
+                
+              
+                
+                            <input type="text" class="form-control input" placeholder="Usuario" ></input>
+                
+                            <p></p>
+                
+                            <p></p>
+                
+                            <input type="email" class="form-control input" placeholder="Correo" ></input>
+                            
+                
+                            <p></p>
+                            
+                            <input type="password" class="form-control input" placeholder="Contraseña"></input>
+                
+                            
+                            <p></p>
+                            <center><input type="submit" class="btn btn-success boton" value="Registrar" href="../vistas/gestionFichas.html"></input></center>
+                
+                            <p></p>
+                
+                
+                    </form>
+                    </div>
+                </div>
+                </div>
+
+        </div>
+
+        <div class="col-sm g">
+            <center><img class="imgn" src="../img/gente.jpeg" width="70%" height="60%" ></center>
+
+        </div>
+    </div>
+
+
+
+          <!--footer-->
+    <footer class="py-3 ">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+          <li class="nav-item"><a href="#INI" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="https://oferta.senasofiaplus.edu.co/sofia-oferta/" class="nav-link px-2 text-body-secondary">Sena Sofia Plus</a></li>
+          <li class="nav-item"><a href="https://sena.territorio.la/index.php?login=true" class="nav-link px-2 text-body-secondary">Territorium</a></li>
+          <li class="nav-item"><a href="https://web.facebook.com/SENA/?locale=es_LA&_rdc=1&_rdr" class="nav-link px-2 text-body-secondary">Facebook</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"></a></li>
+        </ul>
+        <p class="text-center text-body-secondary">&copy; 2023 Sena, Colombia </p>
+      </footer>
+
+
+    
+</body>
+</html>

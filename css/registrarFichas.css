@@ -31,26 +31,35 @@ body{
     background-color: rgb(255, 255, 255) !important;
 }
 
-/*TABLA*/
 
-.table{
-    margin-top: 30px !important;
-    border: #39A900 1px solid !important;
-    padding-bottom: 20px !important;
+/*COMPONENTES*/
+.tarjetita{
+    margin: 15% ;
+    margin-right: 0%;
+    margin-top: 3%;
+    border-color: rgb(0, 0, 0);
+    border-radius: 15px;
 }
 
-.tal{
-    margin-left: 5%;
-    margin-right: 5%;
+
+.g{
+    margin-top: 1%;
+    margin-bottom: 3%;
 }
 
-a{
-    margin-left: 10%;
+.input{
+    border-bottom: none !important;
+    border: none !important;
+    border-bottom: #000000 1px solid !important;
+    padding: 25px !important;   
+    margin-top: 5%;
 }
+
+
 
 /*FOOTER*/
 footer{
     background-color: white;
     min-height: 20vh !important;
-    margin-top: 428px !important;
+    margin-top: 0% !important;
 }
