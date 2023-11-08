@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(235, 235, 235) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.navegacion{
+    font-size: large;
+    margin-left: 70%;
+}
+
+.navegacion1{
+    font-size: large;
+    margin-top: 10px !important;
+    margin-left: 15px !important;
+}
+
+.navegacion2{
+    margin-left: 2% !important;
+    font-size: 45px !important;
+}
+
+.imgn{
+    margin-top: 15px;
+    margin-left: 1px;
+    border-radius: 15px;
+}
+
+.naveg{
+    background-color: rgb(255, 255, 255) !important;
+    border-bottom: #000000 1px solid !important;
+}
+
+.dashboard{
+    background-color: white;
+    box-shadow: 1px 1px 1px rgb(211, 211, 211);  
+}
+.b{
+
+   text-align: center;
+   margin: 2%;
+}
+
+.opciones1{
+    margin-top:40px;
+    margin-left:5%;
+ 
+}
+.opciones{
+   margin-top: 10%;
+   margin-left:5%;
+   margin-right: 0%;
+   
+}
+
+.opciones:hover{
+    color: green;
+    cursor: pointer;
+}
+.icono{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.o{
+    height: 89vh;
+}
+.linea{
+    margin-top:350px;
+}
+
+
+.rutas{
+    margin-top: 5%;
+}
+.img{
+    margin-left: 25%;
+}
+.boton{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
