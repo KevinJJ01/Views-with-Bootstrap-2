@@ -1,4 +1,4 @@
-/*CUERPO*/
+/*CUERPO Y BARRA DE NAVEGACIÓN*/
 body{
     background-color: #ececec !important;
     background-size: cover;
@@ -54,6 +54,8 @@ body{
 a{
     margin-left: 10%;
 }
+
+
 
 /*FOOTER*/
 footer{

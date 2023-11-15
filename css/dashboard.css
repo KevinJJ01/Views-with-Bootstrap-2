@@ -1,8 +1,39 @@
 body{
-    background-color: rgb(235, 235, 235) !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
+    background-color: #ececec !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    margin: 0 !important;
+}
+
+.form{
+    padding-top: 100px !important;
+    text-align: center !important;
+    padding-bottom: 20px !important;
+    min-height: 72vh !important;
+}
+
+.form .titulo{
+    background-color: #39A900;
+    color: white;
+    font-size: 30px;
+
+}
+
+.boton{
+    background-color: #39A900 !important;
+    border-color: #39A900 !important; 
+    color: black;
+}
+
+.vinculo{
+    color: black;
+}
+
+.input{
+    border-bottom: none !important;
+    border: none !important;
+    border-bottom: #39A900 1px solid !important;
+    padding: 25px !important;   
 }
 
 .navegacion{
@@ -22,19 +53,26 @@ body{
 }
 
 .imgn{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 1px;
-    border-radius: 15px;
 }
 
 .naveg{
     background-color: rgb(255, 255, 255) !important;
-    border-bottom: #000000 1px solid !important;
+    box-shadow: 5px 5px 5px rgb(218, 218, 218); 
 }
 
+.nav-link{
+    margin-left: 10px !important;
+     
+}
+
+/*home*/
+
 .dashboard{
+    margin-top: 0.2%;
     background-color: white;
-    box-shadow: 1px 1px 1px rgb(211, 211, 211);  
+    box-shadow: 5px 5px 5px rgb(218, 218, 218);  
 }
 .b{
 
@@ -55,7 +93,7 @@ body{
 }
 
 .opciones:hover{
-    color: green;
+    color: #6272ff;
     cursor: pointer;
 }
 .icono{
@@ -64,21 +102,24 @@ body{
 }
 
 .o{
-    height: 89vh;
+    height: 725px;
 }
 .linea{
     margin-top:350px;
 }
 
-
-.rutas{
-    margin-top: 5%;
-}
-.img{
-    margin-left: 25%;
-}
-.boton{
-    margin-left: 25%;
-    margin-top: 10%;
+.aco{
+    border: none;
 }
 
+.as{
+
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+    margin: 3%;
+    padding: 3%;
+}
